@@ -63,8 +63,8 @@ public class NumRacional {
     
     
     
-    public NumRacional Sumar(NumRacional num, NumRacional num2){
-        /*int numRacional [] = new int [2];
+    public int [] Sumar(NumRacional num, NumRacional num2){
+        int numRacional [] = new int [2];
         int numRacional2 [] = new int [2];
         int resultado [] = new int [2];
         
@@ -77,16 +77,7 @@ public class NumRacional {
         resultado[0] = (numRacional[0]*numRacional2[1])+(numRacional[1]*numRacional2[0]);
         resultado[1] =  numRacional[1] * numRacional2[1];
              
-        return resultado;*/
-
-        int a = num.getNumerador();
-        int b = num.getDenominador();
-        int c = num2.getNumerador();
-        int d = num2.getDenominador();
-
-        this.setNumerador((a*d)+(b*c));
-        this.setDenominador(b*d);
-        return this;
+        return resultado;
     }
     public int [] Restar(NumRacional num, NumRacional num2){
         int numRacional [] = new int [2];

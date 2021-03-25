@@ -9,16 +9,16 @@ public class NumRacionalesMain {
         NumRacional num1 = new NumRacional();
         NumRacional num2 = new NumRacional(1,2);
         NumRacional suma = new NumRacional().Sumar(num1, num2);
-        //int resultado [] = new int [2]; 
+        int resultado [] = new int [2]; 
 
-        //resultado =num1.Sumar(num1, num2);
+        resultado =num1.Sumar(num1, num2);
 
         System.out.println
-        ("La suma de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " + " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  suma.getNumerador() + "/" + suma.getDenominador());
+        ("La suma de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " + " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  resultado[0] + "/" + resultado[1]);
 
         //resultado =num1.Restar(num1, num2);
-       /*  System.out.println
-        ("La resta de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " + " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  resultado[0] + "/" + resultado[1]); */
+        System.out.println
+        ("La resta de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " + " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  resultado[0] + "/" + resultado[1]);
     }
     
 }

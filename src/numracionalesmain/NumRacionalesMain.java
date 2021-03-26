@@ -8,8 +8,8 @@ public class NumRacionalesMain {
     public static void main(String[] args) {
         NumRacional num1 = new NumRacional();
         NumRacional num2 = new NumRacional(1,2);
-        OperacionesNumRacionales operaciones = new OperacionesNumRacionales();
-    
+        NumRacional operaciones = new NumRacional();
+        
         operaciones.Sumar(num1, num2);
         System.out.println
         ("La suma de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " + " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  operaciones.getNumerador() + "/" + operaciones.getDenominador());

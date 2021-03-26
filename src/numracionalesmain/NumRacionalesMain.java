@@ -8,7 +8,7 @@ public class NumRacionalesMain {
     public static void main(String[] args) {
         NumRacional num1 = new NumRacional();
         NumRacional num2 = new NumRacional(1,2);
-        NumRacional operaciones = new NumRacional();
+        OperacionesNumRacionales operaciones = new OperacionesNumRacionales();
     
         operaciones.Sumar(num1, num2);
         System.out.println

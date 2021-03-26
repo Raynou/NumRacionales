@@ -33,7 +33,7 @@ public class NumRacional {
         this.denominador = denominador;
     }
     
-    public NumRacional Sumar(NumRacional num, NumRacional num2){
+    /*public NumRacional Sumar(NumRacional num, NumRacional num2){
         int a = num.getNumerador();
         int b = num.getDenominador();
         int c = num2.getNumerador();
@@ -52,7 +52,7 @@ public class NumRacional {
         this.setNumerador((a*d)-(b*c));
         this.setDenominador(b*d);
         return this;
-    }
+    }*/
 
     
     

@@ -19,4 +19,4 @@ public class NumRacionalesMain {
         ("La resta de: " + num1.getNumerador() + "/" + num1.getDenominador()+ " - " + num2.getNumerador() + "/" + num2.getDenominador() +  " es: " +  operaciones.getNumerador() + "/" + operaciones.getDenominador());
     }
     
-}/*Last commit: 1:08 pm 26/03/21* */
+}/*Last commit: 26/03/21 at the 1:18 p.m */

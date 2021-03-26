@@ -44,13 +44,13 @@ public class NumRacional {
         return this;
     }
     public NumRacional Restar(NumRacional num, NumRacional num2){
-        int a = num.getNumerador();
-        int b = num.getDenominador();
-        int c = num2.getNumerador();
-        int d = num2.getDenominador();
+        int primerNumerador = num.getNumerador(); 
+        int primerDenominador = num.getDenominador(); 
+        int segundoNumerador = num2.getNumerador();
+        int segundoDenominador = num2.getDenominador();
 
-        this.setNumerador((a*d)-(b*c));
-        this.setDenominador(b*d);
+        this.setNumerador((primerNumerador*segundoDenominador)-(primerDenominador*segundoNumerador));
+        this.setDenominador(primerDenominador*segundoDenominador);
         return this;
     }
 
